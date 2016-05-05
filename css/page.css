@@ -31,6 +31,23 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
+.container .row ul li {
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 
+    inset 0 0 0 1px rgba(255,255,255,0.1),
+    0px 0px 1px rgba(0,0,0,0.1);
+}
+.container .row ul li:hover {
+  padding:2px;
+  box-shadow: 
+    inset 0 0 0 3px rgba(255,255,255,0.1),
+    0px 3px 3px rgba(0,0,0,0.4);
+    border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+  transform: rotateY(180deg);
+}
+
 a:hover,
 a:focus {
   color: #0085a1;
@@ -39,6 +56,14 @@ a:focus {
     transition: font-size 0.3s ease, background-color 0.3s ease;
     -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
     transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+.googleplus {
+  color:  #d34836;
+}
+.googleplus:hover,
+.googleplus:focus {
+  font-size: 28px;
+  color:  #d34836;
 }
 .wechat {
   color: #0c0;
@@ -123,6 +148,11 @@ hr.small {
   font-weight: 800;
   letter-spacing: 1px;
 }
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+    border: 2px solid;
+    border-radius: 5px;
+}
 @media only screen and (min-width: 768px) {
   .navbar-custom {
     background: transparent;
@@ -205,13 +235,6 @@ hr.small {
   -o-background-size: cover;
   margin-bottom: 15px;
 }
-/*.site-heading{
-  animation: pop-out 1s ease-in;
-}
-@keyframes pop-out {
-    0%   {opacity: 0}
-    100% {opacity: 1}
-}*/
 
 .site-heading h1,
 .site-heading span{
@@ -429,3 +452,4 @@ body {
     right: 10px; 
     bottom: 10px; 
 }
+

@@ -12,7 +12,7 @@
     <link rel="shortcut icon" href="images/title.svg"/>
 
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/page.css" rel="stylesheet">
+	<link href="css/contact.css" rel="stylesheet">
 
 	<!-- Custom Fonts -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -52,7 +52,7 @@
                         <a href="resume.html">Resume</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a class="contactMe" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -61,72 +61,38 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Page Header -->
-    <!-- Set your background image for this header on the line below. -->
-<!--     <header class="intro-header" href="about.html" style="background-image: url('images/home-bg.jpg')">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="site-heading">
-                        <h1>James Wang</h1>
-                        <hr class="small">
-                        <span class="subheading">Full-Stack Web Developer</span>
-                    </div>
-                </div>
+    <div class="footer_bg" id="contact"><!-- start footer -->
+    <div class="container">
+        <div class="row footer">
+            <div class="col-md-8 contact_left">
+                <h3>Say<span>Hello</span></h3>
+                <p>I would really love to hear from you</h4>
+                <form method="post" action="contact-post.html">
+                    <input type="text" value="Name (Required)" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+                    <input type="text" value="Email (Required)" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+                    <input type="text" value="Subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}">
+                    <textarea onfocus="if(this.value == 'Your Message here....') this.value='';" onblur="if(this.value == '') this.value='Your Message here....;" >Your Message here....</textarea>
+                    <span class="pull-right"><input type="submit" value="submit"></span>
+                </form>
             </div>
+            <div class="col-md-4  contact_right">
+                <p><span>Lorem Ipsum is simply dummy text: </span> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                <ul class="list-unstyled address">
+                    <li><i class="fa fa-map-marker"></i><a href="http://maps.google.com/?q=1870 Tradan Dr. San Jose, CA 95132">Locate me in the map</a></li>
+                    <li><i class="fa fa-phone"></i><a href="tel:510-944-9912">Click to call me</a></li>
+                    <li><i class="fa fa-envelope"></i><a href="mailto:jameswong300@gmail.com.com">Click to email me</a></li>
+                    <li><i class="fa fa-skype"></i><a href="skype:facebook:jameswong300">Click to skype me</a></li>
+                    <li><i class="fa fa-weixin"></i><a href="wechat.html">Scan my Wechat QR code</a></li>
+                </ul>
+            </div>      
         </div>
-    </header> -->
+    </div>
+    </div>
 
         <!-- Footer -->
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <ul class="list-inline text-center">
-                        <li>
-                            <a href="wechat.html" class="wechat">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-weixin fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/jameswangpm" class="linkedin">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/jameswong300" class="facebook">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/JamesWangbrothers" class="github">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://500px.com/jameswong300" class="my500px">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-500px fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted">Copyright &copy; James Website 2016</p>
-                </div>
-            </div>
+        <div class="text-center footer">
+            <p class="copyright text-muted">Copyright &copy; James Website 2016</p>       
         </div>
     </footer>
 
