@@ -181,9 +181,8 @@
 .navbar-right li a:hover,
 .navbar-right li a:focus {
     border: 2px solid;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 .navbar-custom .nav ul:last-child{
 	background-color: black;
 }
-

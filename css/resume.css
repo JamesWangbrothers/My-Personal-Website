@@ -1,0 +1,108 @@
+/*
+---------------------------------------------------------------------------------
+	STRIPPED DOWN RESUME TEMPLATE
+    html resume
+
+    v0.9: 5/28/09
+
+    design and code by: thingsthatarebrown.com 
+                        (matt brown)
+---------------------------------------------------------------------------------
+*/
+
+
+.msg { padding: 10px; background: #222; position: relative; }
+.msg h1 { color: #fff; }
+.msg a { margin-left: 20px; background: #408814; color: white; padding: 4px 8px; text-decoration: none; }
+.msg a:hover { background: #266400; }
+
+/* //-- yui-grids style overrides -- */
+body { font-family: Georgia; color: black; }
+#inner { padding: 10px 80px; margin: 100px auto; background: #f5f5f5; border: solid #666; border-width: 10px 0 2px 0; }
+.yui-gf { margin-bottom: 2em; padding-bottom: 2em; border-bottom: 1px solid #ccc; }
+
+/* //-- header, body, footer -- */
+#hd { margin: 2em 0 2em 0; padding-bottom: 1.5em; }
+#hd h2 { text-transform: uppercase; letter-spacing: 2px; }
+
+/* //-- footer -- */
+#ft { padding: 1em 0 1em 0; font-size: 92%; text-align: center; }
+#ft p { margin-bottom: 0; text-align: center;   }
+
+/* //-- core typography and style -- */
+#hd h1 { font-size: 48px; text-transform: uppercase; letter-spacing: 3px; color: #990003}
+h2 { font-size: 152% }
+h3, h4 { font-size: 122%; }
+h1, h2, h3, h4 { color: #333; }
+p { font-size: 100%; line-height: 18px; padding-right: 3em; }
+a { color: #990003 }
+a:hover { text-decoration: none; }
+strong { font-weight: bold; }
+li { line-height: 24px;}
+.contact-info { margin-top: 7px; float:right; text-align: center;}
+.contact-info h3{ margin-top:4px;}
+.first h2 { font-weight: 800; text-transform: uppercase;}
+
+.first h2{
+	font-size: 140%;
+}
+/* //-- section styles -- */
+
+a#pdf { display: block; background: #990003; color: white; padding: 10px; text-decoration: none;  }
+a#pdf:hover { background: black; }
+
+.job { position: relative; margin-bottom: 1em; height:100%;}
+.job h4 { position: absolute; top: 0.35em; right: 0 }
+.job p { margin: 0.75em 0 1em 0; }
+.job ul li { list-style: circle;}
+.job h2,
+.job h3,
+.job h4 {font-weight: 600;}
+
+.edu { position: relative; margin-bottom: 1em; height:100%;}
+.edu h4 { position: absolute; top: 0.35em; right: 0;}
+.edu h2,
+.edu h4 {font-weight: 600;}
+
+.project { position: relative; margin-bottom: 1em; height:100%;}
+.project h4 { position: absolute; top: 0.35em; right: 0 }
+.project h3 { padding: 10px 0px 10px 0;}
+.project h3 a{color: white; background-color: #990003; padding:5px; margin-right: 10px;}
+.project h2, 
+.project h4 { font-weight: 600;}
+
+.skills-list {  }
+.skills-list ul { margin: 0; }
+.skills-list li { margin: 3px 0; padding: 3px 0; }
+.skills-list li span { font-size: 152%; display: block; margin-bottom: -2px; padding: 0 }
+.talent { width: 32%; float: left }
+.talent h2 { margin-bottom: 6px; font-weight: 600;}
+
+/* --// override to force 1/8th width grids -- */
+.yui-gf .yui-u{width:80.2%;}
+.yui-gf div.first{width:12.3%;}
+
+/* start nav */
+.navbar {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+}
+.navbar-default .resume{
+	border: 2px solid;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color:black;
+}
+.navbar-right li a:hover,
+.navbar-right li a:focus {
+    border: 2px solid;
+    border-radius: 4px;
+}
+.navbar-custom .nav ul:last-child{
+	background-color: black;
+}
+footer {
+	margin-top: -60px;
+}
+
