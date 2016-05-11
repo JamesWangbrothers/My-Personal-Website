@@ -97,11 +97,11 @@ a:focus {
   color: #b100f3;
   font-size: 28px;
 }
-.my500px{
+.udacity{
   color: #ff8000;
 }
-.my500px:hover,
-.my500px:focus {
+.udacity:hover,
+.udacity:focus {
   color: #ff8000;
   font-size: 28px;
 }
@@ -359,7 +359,6 @@ footer .copyright {
   padding-right: 0;
   padding-left: 0;
   border: none;
-  border-radius: 0;
   font-size: 1.5em;
   background: none;
   box-shadow: none !important;
