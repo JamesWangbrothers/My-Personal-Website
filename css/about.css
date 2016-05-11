@@ -20,6 +20,10 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
+.container .row {
+	border-top: 2px solid #8bc34a;
+	padding-top:20px;
+}
 .container .row ul li {
   font-size: 16px;
   border-radius: 50%;
